@@ -9,7 +9,6 @@ function App() {
     <div className="app">
       <Nav />
       <Body />
-      <img className="appImg" src={PTDevs} alt="PTDevLogo" />
     </div>
   );
 }

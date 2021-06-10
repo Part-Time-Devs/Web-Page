@@ -51,12 +51,14 @@ button {
   height: 3rem;
   background-color: #5c5d5f;
   margin-top: 1rem;
+  cursor: pointer;
+  color: #27aae2;
   transition: 1s;
 }
 
 button:hover {
-  color: white;
   background-color: #27aae2;
+  color: silver;
 }
 
 a {

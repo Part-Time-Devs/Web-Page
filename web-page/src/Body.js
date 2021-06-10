@@ -8,7 +8,7 @@ import PTDevs3 from "./content/AdobeStock_278335772.jpeg"
 function Body() {
     return (
         <div className="body">
-          <p> This is a paragraph </p>
+          
         </div>
     )
 }
