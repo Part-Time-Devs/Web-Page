@@ -1,0 +1,65 @@
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+
+.navContainer {
+  background-color: silver;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  box-shadow: 10px 6px 10px grey;
+  opacity: 90%;
+}
+
+.navImg {
+  width: 10rem;
+  height: 5rem;
+  object-fit: contain;
+  margin-right: 3rem;
+  cursor: pointer;
+  transition: 1s;
+}
+.navImg:hover {
+  animation: bounce 300ms infinite alternate;
+  -webkit-animation: bounce 300ms infinite alternate;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 0.7rem;
+}
+
+button {
+  border-radius: 6rem;
+  border: none;
+  font-size: 16px;
+  width: 10rem;
+  height: 3rem;
+  background-color: #5c5d5f;
+  margin-top: 1rem;
+  transition: 1s;
+}
+
+button:hover {
+  color: white;
+  background-color: #27aae2;
+}
+
+a {
+  text-decoration: none;
+  color: silver;
+}
