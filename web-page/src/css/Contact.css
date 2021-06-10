@@ -1,18 +1,40 @@
 .contact {
   background-color: black;
-  height: auto;
+  height: 100vh;
+  display: flex;
 }
 
 .discord {
   padding-top: 10rem;
-  padding-left: 3rem;
-}
-
-.github {
-  display: flex;
+  padding-left: 6rem;
 }
 
 .contactImg {
   width: 20rem;
-  margin-left: 50rem;
+  margin-left: 8rem;
+  margin-top: 10rem;
+}
+
+.githubMain {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 7rem;
+}
+
+.githubMain > p {
+  color: silver;
+  margin-top: 4rem;
+  margin-left: 10rem;
+  width: 30rem;
+}
+
+.github {
+  margin-left: 5rem;
+  margin-top: 4rem;
+  flex-direction: row;
+}
+
+.octocat {
+  width: 5rem;
 }
