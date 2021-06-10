@@ -43,7 +43,7 @@ nav {
   padding-top: 0.7rem;
 }
 
-button {
+.button {
   border-radius: 6rem;
   border: none;
   font-size: 16px;
@@ -54,14 +54,17 @@ button {
   cursor: pointer;
   color: #27aae2;
   transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-button:hover {
+.button:hover {
   background-color: #27aae2;
   color: silver;
 }
 
 a {
   text-decoration: none;
-  color: silver;
+
 }

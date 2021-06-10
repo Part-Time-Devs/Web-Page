@@ -1,0 +1,18 @@
+.contact {
+  background-color: black;
+  height: auto;
+}
+
+.discord {
+  padding-top: 10rem;
+  padding-left: 3rem;
+}
+
+.github {
+  display: flex;
+}
+
+.contactImg {
+  width: 20rem;
+  margin-left: 50rem;
+}
