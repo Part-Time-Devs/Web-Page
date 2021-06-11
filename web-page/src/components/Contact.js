@@ -1,6 +1,8 @@
 import React from 'react'
 import "../css/Contact.css"
 import PTDevImg from "../content/Part Time Devs Logo Final Files.png"
+import OctoChris from "../content/chris-boyle-octocat.png"
+import OctoAlex from "../content/78587883.png"
 
 
 function Contact() {
@@ -20,10 +22,11 @@ function Contact() {
                <a href="https://github.com/Rory-Ray"> <img className="octocat" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Rory" /> </a>
                <a href="https://github.com/bverfurth"> <img className="octocat" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Brandon V" /> </a>
                <a href="https://github.com/irasanchez"> <img className="octocat" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Ira" /> </a>
-               <a href="https://github.com/SelfCheckout94"> <img className="octocat" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Chris" /> </a>
+               <a href="https://github.com/SelfCheckout94"> <img className="octocat" src={OctoChris} alt="Chris" /> </a>
                <a href="https://github.com/SethBlakley"> <img className="octocat" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Seth" /> </a>
                <a href="https://github.com/TracyB85"> <img className="octocat" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Tracy" /> </a>
                <a href="https://github.com/JamariaSims"> <img className="octocat" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Jamaria" /> </a>
+               <a href="https://github.com/omtmn"> <img className="octocat" src={OctoAlex} alt="Alex" /> </a>
             </div>
           </div>
 

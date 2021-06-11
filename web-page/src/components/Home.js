@@ -7,9 +7,10 @@ import PTDevs4 from "../content/Part Time Devs Logo Final Files.png"
 
 
 function Home() {
+
     return (
         <div className="home">
-          <button className="signUp"> Sign Up </button>
+          
         </div>
     )
 }
