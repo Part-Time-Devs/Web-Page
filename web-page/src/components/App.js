@@ -19,11 +19,7 @@ function App() {
             <Home />
           </Route>
 
-          <Route path="/about">
-            <About />
-          </Route>
-
-          <Route path="/curriculum">
+          <Route path="/feed">
             <Feed />
           </Route>
 
