@@ -1,32 +1,28 @@
-.contact {
-  background-color: black;
-  height: 100vh;
-  display: flex;
-}
 
 .discord {
   padding-top: 10rem;
   padding-left: 6rem;
+  display: flex;
+  flex-direction: row;
 }
 
 .contactImg {
   width: 20rem;
-  margin-left: 8rem;
-  margin-top: 10rem;
+  margin-left: 10rem;
+  margin-top: 6rem;
 }
 
 .githubMain {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-left: 7rem;
+  width: 40rem;
+  margin-left: 18rem;
 }
 
 .githubMain > p {
   color: silver;
   margin-top: 4rem;
-  margin-left: 10rem;
+  margin-left: 7rem;
   width: 30rem;
+  font-size: 20px;
 }
 
 .github {
